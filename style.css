@@ -15,8 +15,9 @@
 
 .calculator{
     background-color: #ecf0f3;
-    width: 22%;
+    /* width: 22%; */
     margin-left: 38%;
+    width: 300px;
     margin-top: 7%;
     padding: 15px;
     border-radius: 30px;
@@ -28,7 +29,7 @@
 input{
     grid-column: span 4;
     height: 70px;
-    width: 260px;
+    /* width: 260px; */
     background-color: #ecf0f3;
     box-shadow: inset -5px -5px 12px #ffffff,
                 inset 5px 5px 12px rgba(0,0,0,.16);
@@ -37,7 +38,7 @@ input{
     color: rgb(70,70,70);
     font-size: 50px;
     text-align: end;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 40px;
     margin-bottom: 30px;
     padding: 20px;
@@ -59,4 +60,19 @@ button{
     background-color: #ecf0f3;
     box-shadow: -5px -5px 12px #ffffff,
                     5px 5px 12px rgba(0,0,0,.16);
+}
+@media only screen and (max-width: 320px) {
+    .calculator {
+        margin-left: -1%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .calculator {
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .calculator {
+        margin-left:3%;
+    }
 }
